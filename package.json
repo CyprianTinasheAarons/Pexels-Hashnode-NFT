@@ -11,6 +11,8 @@
   "dependencies": {
     "@headlessui/react": "^1.7.1",
     "@heroicons/react": "^2.0.11",
+    "animate.css": "^4.1.1",
+    "framer-motion": "^7.3.5",
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"

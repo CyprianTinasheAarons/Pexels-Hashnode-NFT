@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export default function Header() {
   return (
     <header className="bg-[#1A0E35]">
@@ -13,7 +15,9 @@ export default function Header() {
             </a>
           </div>
           <div className="ml-10 space-x-4">
-            <a
+            <motion.button
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.8 }}
               href="#"
               className="text-white  w-full py-4 mt-4 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100"
             >
@@ -21,7 +25,7 @@ export default function Header() {
                 {" "}
                 Connect Wallet
               </span>
-            </a>
+            </motion.button>
           </div>
         </div>
       </nav>
