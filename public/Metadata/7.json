@@ -1,0 +1,16 @@
+{
+  "description": "Animal sitting",
+  "external_url": "https://www.pexels.com/photo/animal-sitting-dangerous-africa-38280/",
+  "image": "ipfs://QmUJQW7jkTmLGL68Hh6r3jCt1oKahQuV3x46be97pY2Tov/7.jpeg",
+  "name": "Image #7",
+  "attributes": [
+    {
+      "trait_type": "Source",
+      "value": "https://www.pexels.com/photo/animal-sitting-dangerous-africa-38280/"
+    },
+    {
+      "trait_type": "Owner",
+      "value": "Photo by Pixabay"
+    }
+  ]
+}
