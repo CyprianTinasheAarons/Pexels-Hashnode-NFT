@@ -24,7 +24,7 @@ export default function Connect() {
         <h1 className="text-xs">
           {ensName ? `${ensName} (${address})` : address}
         </h1>
-        <div>Connected to {connector.name}</div>
+        <div> {connector && "Connected to " + connector?.name}</div>
         <button onClick={disconnect}>Disconnect</button>
       </div>
     );
